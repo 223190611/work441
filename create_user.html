@@ -1,0 +1,93 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Create User</title>  
+    <style>  
+        body {  
+            font-family: Arial, sans-serif;  
+            background-color: rgb(247, 190, 84);  
+            display: flex;  
+            justify-content: center;  
+            align-items: center;  
+            height: 100vh;  
+            margin: 0;  
+        }  
+        .container {  
+            background-color: #fff;  
+            padding: 20px;  
+            border-radius: 5px;  
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+            width: 300px;  
+        }  
+        .container h2 {  
+            margin-top: 0;  
+        }  
+        .container label {  
+            display: block;  
+            margin-bottom: 5px;  
+        }  
+        .container input[type="text"],  
+        .container input[type="email"],  
+        .container input[type="password"] {  
+            width: calc(100% - 12px);  
+            padding: 6px;  
+            margin-bottom: 10px;  
+            border: 1px solid #ccc;  
+            border-radius: 3px;  
+        }  
+        .container input[type="submit"] {  
+            width: 100%;  
+            padding: 10px;  
+            background-color: #4CAF50;  
+            color: white;  
+            border: none;  
+            border-radius: 3px;  
+            cursor: pointer;  
+        }  
+        .container input[type="submit"]:hover {  
+            background-color: #45a049;  
+        }  
+        .menu-list {  
+    position: absolute;  
+    top: 0; 
+    left: 0; 
+    list-style-type: none;  
+    margin: 0;  
+    padding: 0; 
+}  
+ 
+
+.button {  
+    display: block;  
+    padding: 10px 20px;  
+    text-decoration: none; 
+    color: white; 
+    background-color: #333;   
+}  
+ 
+
+.button:hover {  
+    background-color: #555;   
+}
+    </style>  
+</head>  
+<body>  
+    <ul class="menu-list">  
+        <li><a href="index.html" class="button">Menu</a></li>  
+    </ul> 
+    <div class="container">  
+        <h1>Create Cookies</h1>  
+        <label for="username">Username:</label>  
+        <input type="text" id="username" placeholder="Enter username">  
+        <label for="password">Password:</label>  
+        <input type="password" id="password" placeholder="Enter password">  
+        <button onclick="createCookies()">Create</button>  
+    
+        <button onclick="deleteCookies()">Delete Cookies</button>  
+        <p>Existing account<a href="login.html">Register here</a>.</p>  
+    </div>  
+    <script src="script3.js"></script>  
+</body>  
+</html>

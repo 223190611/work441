@@ -1,0 +1,82 @@
+/*rebecca*/
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+    background-color: orange;  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+    justify-content: center;  
+    height: 100vh;  
+    font-family: Arial, sans-serif; 
+}  
+  
+header {  
+    background-color: orange;  
+    color: white;  
+    padding: 1em 0;  
+    text-align: center;  
+}  
+  
+header nav ul {  
+    list-style: none;  
+    padding: 0;  
+}  
+  
+header nav ul li {  
+    display: inline;  
+    margin: 0 1em;  
+}  
+  
+header nav ul li a {  
+    color: white;  
+    text-decoration: none;  
+}  
+  
+main {  
+    padding: 2em;  
+}  
+  
+footer {  
+    background-color: orange;  
+    color: black;  
+    text-align: center;  
+    padding: 1em 0;  
+    position: fixed;  
+    width: 100%;  
+    bottom: 0;  
+}
+.banner-container {  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+    justify-content: center;  
+    text-align: center;  
+}  
+  
+.banner-image {  
+    width: 100%;  
+    max-width: 250px;
+    height: auto; 
+    margin-bottom: 10px; 
+}  
+
+  
+
+.content-container {  
+    text-align: center; 
+    width: 100%;  
+    max-width: 400px; 
+    margin: auto; 
+}  
+  
+
+form {  
+    background-color: #fff; 
+    padding: 20px; 
+    border-radius: 8px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}  
+
+  
